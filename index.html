@@ -1,47 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Website Under Construction</title>
-  <style>
-    body {
-      background: #f7f9fb;
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-      color: #333;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #666;
-    }
-    .loader {
-      margin-top: 2rem;
-      width: 50px;
-      height: 50px;
-      border: 6px solid #ddd;
-      border-top: 6px solid #0078d7;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Sai Polymer - Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <h1>🚧 Under Construction 🚧</h1>
-  <p>Our website is coming soon. Stay tuned!</p>
-  <div class="loader"></div>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Sri Sai Polymer</h1>
+    <p>Innovative polymer solutions for a sustainable future.</p>
+    <video controls autoplay muted loop width="80%">
+    <source src="assets/videos/plastic_granules_in_hand.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  </section>
+  <footer>
+    <p>© 2025 Sri Sai Polymer</p>
+  </footer>
 </body>
 </html>
